@@ -1,6 +1,8 @@
+package edu.cooper.ece465;
+
+
 import java.util.concurrent.BlockingQueue;
 
-//package edu.cooper.ece465;
 
 public class Slave extends Thread {
 	BlockingQueue<Job> jobQueue;
